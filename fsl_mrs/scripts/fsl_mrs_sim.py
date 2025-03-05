@@ -26,7 +26,7 @@ def main():
     optional = p.add_argument_group('optional arguments')
 
     # positional REQUIRED ARGUMENTS
-    p.add_argument('seqFile', type=str, metavar='SEQUENCE',
+    p.add_argument('seqFile', type=str, metavar='SEQUENCE_CTR_CTR',
                    help='pulse sequence file or previous results file')
 
     # Mutual required arguments
